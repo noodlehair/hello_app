@@ -6,8 +6,4 @@ class ApplicationController < ActionController::Base
   def hello
     render text: "hello, world!"
   end
-
-  def person 
-    render text: "Hey Marvin! My first Ruby on Rails Web App"
-  end
 end
